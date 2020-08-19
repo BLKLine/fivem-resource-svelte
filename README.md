@@ -1,5 +1,11 @@
 # FiveM Resource
 
+## Installation
+
+```bash
+npx degit blkline/fivem-resource-svelte my-resource
+```
+
 ## Description
 
 A FiveM typescript resource that includes a Svelte HTML page
