@@ -1,4 +1,5 @@
 {
+    "extends": "./tsconfig",
     "compilerOptions": {
         "module": "commonjs",
         "esModuleInterop": true,
@@ -8,7 +9,6 @@
         "sourceMap": true,
         "outDir": "dist",
         "baseUrl": ".",
-        "types": ["@citizenfx/server", "@citizenfx/client", "@types/node"],
         "paths": {
             "*": ["node_modules/*"]
         }
