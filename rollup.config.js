@@ -49,7 +49,7 @@ export default {
         svelte({
             dev: !production,
             css: (css) => {
-                css.write(`${inputDirectory}/bundle.css`);
+                css.write(`${outputDirectory}/bundle.css`);
             },
             preprocess: sveltePreprocess(),
         }),
